@@ -54,3 +54,7 @@ To be able to visit your application, map a port on your host machine to the app
     docker run --name adonisjs -v /path/to/app:/var/www -p 1234:80 stephenafamo/adonisjs:1.0.0
 
 Then you can visit the application on `http://0.0.0.0:1234`
+
+## Self-Promotion
+
+If you like this project, please star the repository on [GitHub](https://github.com/stephenafamo/adonisjs-docker) You might also consider visiting my [blog](https://stephenafamo.com/blog) and following me on [Twitter](https://twitter.com/stephenafamo) and [Github](https://github.com/stephenafamo).
