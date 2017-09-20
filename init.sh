@@ -11,6 +11,8 @@ if [[ -z "$(ls -A $PWD | grep .env)" ]]; then
 	exit 1
 fi
 
+npm install
+
 source .env
 
 if [[ "$NODE_ENV" == "production" ]]; then
